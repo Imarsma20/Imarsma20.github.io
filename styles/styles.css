@@ -1,0 +1,869 @@
+/* Start Font */
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed|Satisfy');
+/* End Font */
+
+/* Start Body */
+body {
+    background-color: #ffc3ac;
+    color: black;
+    font-family: Roboto, -apple-system, sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0;
+}
+/* End Body */
+
+/* Start Debug */
+.bg-lightsalmon{
+    background-color: lightsalmon;
+}
+
+.bg-lights {
+    background-color: #ff48008c;
+}
+/* End Debug */
+
+/* Start Container */
+.container {
+    margin-left: 90px;
+    overflow: auto;
+    width: 90%;
+}
+.container-full{
+    margin: 10 px auto;
+    overflow: auto;
+    width: 100%;
+}
+/* End  Container */
+
+/* Start Logo*/
+.logo {
+    text-align-last: center;
+}
+/* End Logo*/
+
+/* Start Anchor / Hyperlink */
+a:link,
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+a:hover,
+a:active {
+    color: lightpink;
+    text-decoration: underline;
+    line-height: 16px;
+}
+/* End Anchor / Hyperlink */
+
+/* Start Container */
+.container {
+    text-align: center;
+    margin-left right: 100px;
+}
+/* End Container */
+
+/* Start Menu Primer*/
+.menu-primer ul{
+    background-color: lightsalmon;
+    border-radius: 4px;
+    box-shadow: 
+        0 3px 5px -1px lightcoral,
+        0 6px 10px 0   lightcoral,
+        0 1px 18px 0 lightcoral;
+    width: 90%;
+    text-align: center;
+}
+.menu-primer li {
+    border-right: 1px solid lightcoral;
+    display: inline-block;
+    margin: 0 10px;
+}    
+.menu-primer a {
+    color: black;
+    font-size: 12px;
+    display: inline-block;
+    letter-spacing: 2px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+.menu-primer a:hover {
+    background-color: lightpink;
+    color: black;
+    text-decoration: none;
+}
+.menu-primer .active {
+    background-color: lightpink;
+    color: black;
+    text-decoration: none;
+}
+/* End Menu Primer*/
+
+/* Start Heading */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+h1 {
+    font-size: 28px;
+}
+h2 {
+    font-size: 24px;
+}
+h3 {
+    font-size: 18px;
+}
+h4 {
+    font-size: 16px;
+}
+h5 {
+    font-size: 14px;
+}
+h6 {
+    font-size: 13px;
+}
+/* End Heading */
+
+/* Start jumbotron */
+.jumbotron {
+    background-color: #fab296fb;
+    border: 1px solid: white;
+}
+.jumbotron h1 {
+    font-size: 32px;
+    padding: 0 32px;
+}
+.jumbotron h3 {
+    font-size: 20px;
+    padding: 0px;
+}
+/* End jumbotron */
+
+
+/* Start Main */
+.main-home-one {
+    float: left;
+    width: 30%;
+    background-color: white;
+    text-align: center;
+}
+.main-home-two {
+    float: left;
+    width: 30%%;
+    background-color: white;
+    text-align: center;
+}
+.main-home-tri {
+    float: left;
+    width: 30%;
+    background-color: white;
+    text-align: center;
+}
+.main-home-one .box-isi,
+.main-home-two .box-isi,
+.main-home-tri .box-isi, {
+    heigt: 15px;
+}
+/* End Main */
+
+/* Start Box */
+.box-heading { 
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 2px 2px 0 0;
+    margin: 0;
+    padding: 0px 0px;
+}
+
+.box-isi {
+    background-color: white;
+    border: 1px solid white;
+    border-top: 0;
+    margin: 0;
+    padding: 8px 10px;
+}
+/* End Box */
+
+/* Start Gambar */
+.container-gambar {
+    margin: left right;
+    text-align: center;
+}
+/* End Gambar */
+
+/* Start Menu Sekunder */
+.menu-sekunder {
+    background-color: #fab296fb;
+    overflow: auto;
+    padding: 8px 0;
+    margin-right: 90px;
+}
+.menu-sekunder h4 {
+    font-size: 14px;
+    margin: 0;
+    text-transform: uppercase;
+}
+.menu-sekunder ul {
+    padding: 0;
+}
+.menu-sekunder li {
+    list-style: disc;
+}
+.menu-sekunder li a,
+.menu-sekunder p {
+    font-size: 14px;
+}
+
+.menu-sekunder-one,
+.menu-sekunder-two,
+.menu-sekunder-tri {
+    float: left; 
+}
+.menu-sekunder-one {
+    width: 30%;
+    border-bottom: 2px;
+}
+.menu-sekunder-two {
+    width: 30%;
+    border-bottom: 2px;
+}
+.menu-sekunder-tri {
+    width: 30%;
+    border-bottom: 2px;
+}
+.menu-sekunder li img {
+    vertical-align: middle;
+}
+/* End Menu Sekunder */
+
+/* Start Copyright */
+.copyright p {
+    text-align: left;
+    font-size: 15px;
+}
+/* End Copyright */
+
+/*Start Effect */
+.snip1573 {
+    background-color: #000;
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    margin: 16px;
+    max-width: 300px;
+    min-width: 200px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .snip1573 * {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all 0.35s ease;
+    transition: all 0.35s ease;
+  }
+  
+  .snip1573:before,
+  .snip1573:after {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    -webkit-transition: all 0.35s ease;
+    transition: all 0.35s ease;
+    background-color: #000000;
+    border-left: 3px solid #fff;
+    border-right: 3px solid #fff;
+    content: '';
+    opacity: 0.9;
+    z-index: 1;
+  }
+  
+  .snip1573:before {
+    -webkit-transform: skew(45deg) translateX(-155%);
+    transform: skew(45deg) translateX(-155%);
+  }
+  
+  .snip1573:after {
+    -webkit-transform: skew(45deg) translateX(155%);
+    transform: skew(45deg) translateX(155%);
+  }
+  
+  .snip1573 img {
+    backface-visibility: hidden;
+    max-width: 100%;
+    vertical-align: center;
+  }
+  
+  .snip1573 figcaption {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    z-index: 2;
+    -webkit-transform: translate(-50%, -50%) scale(0.5);
+    transform: translate(-50%, -50%) scale(0.5);
+    opacity: 0;
+    -webkit-box-shadow: 0 0 10px #000000;
+    box-shadow: 0 0 10px #000000;
+  }
+  
+  .snip1573 h3 {
+    background-color: #000000;
+    border: 2px solid #fff;
+    color: #fff;
+    font-size: 1em;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin: 0;
+    padding: 5px 10px;
+    text-transform: uppercase;
+  }
+  
+  .snip1573 a {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 3;
+  }
+  
+  .snip1573:hover > img,
+  .snip1573.hover > img {
+    opacity: 0.5;
+  }
+  
+  .snip1573:hover:before,
+  .snip1573.hover:before {
+    -webkit-transform: skew(45deg) translateX(-55%);
+    transform: skew(45deg) translateX(-55%);
+  }
+  
+  .snip1573:hover:after,
+  .snip1573.hover:after {
+    -webkit-transform: skew(45deg) translateX(55%);
+    transform: skew(45deg) translateX(55%);
+  }
+  
+  .snip1573:hover figcaption,
+  .snip1573.hover figcaption {
+    -webkit-transform: translate(-50%, -50%) scale(1);
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 1;
+  }
+/* End Effect */
+
+/* Start Effect One */
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+.snip1584 {
+  font-family: 'Raleway', sans-serif;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  margin: 10px;
+  min-width: 230px;
+  max-width: 315px;
+  width: 100%;
+  color: #ffffff;
+  font-size: 16px;
+  text-align: left;
+}
+.snip1584 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+.snip1584:before {
+  position: absolute;
+  top: 10px;
+  bottom: 10px;
+  left: 10px;
+  right: 10px;
+  top: 100%;
+  content: '';
+  background-color: rgba(51, 51, 51, 0.9);
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+  -webkit-transition-delay: 0.25s;
+  transition-delay: 0.25s;
+}
+.snip1584 img {
+  vertical-align: top;
+  max-width: 100%;
+  backface-visibility: hidden;
+}
+.snip1584 figcaption {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.snip1584 h3,
+.snip1584 h5 {
+  margin: 0;
+  opacity: 0;
+  letter-spacing: 1px;
+}
+.snip1584 h3 {
+  -webkit-transform: translateY(-100%);
+  transform: translateY(-100%);
+  text-transform: uppercase;
+  font-weight: 400;
+  -webkit-transition-delay: 0.05s;
+  transition-delay: 0.05s;
+  margin-bottom: 5px;
+}
+.snip1584 h5 {
+  font-weight: normal;
+  background-color: #ae895d;
+  padding: 3px 10px;
+  -webkit-transform: translateY(-100%);
+  transform: translateY(-100%);
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+.snip1584 a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+.snip1584:hover:before,
+.snip1584.hover:before {
+  top: 10px;
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+.snip1584:hover h3,
+.snip1584.hover h3,
+.snip1584:hover h5,
+.snip1584.hover h5 {
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+  opacity: 1;
+}
+.snip1584:hover h3,
+.snip1584.hover h3 {
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+}
+.snip1584:hover h5,
+.snip1584.hover h5 {
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}
+/* End Effect One */
+
+/* Start Effect Two */
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,700);
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+.snip1500 {
+  font-family: 'Raleway', sans-serif;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  margin: 10px;
+  min-width: 230px;
+  max-width: 315px;
+  width: 100%;
+  color: #ffffff;
+  font-size: 16px;
+  text-align: left;
+}
+
+.snip1500 *,
+.snip1500 *:before,
+.snip1500 *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.55s ease;
+  transition: all 0.55s ease;
+}
+
+.snip1500 img {
+  max-width: 100%;
+  backface-visibility: hidden;
+  vertical-align: top;
+}
+
+.snip1500 figcaption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  padding: 5px 10px 10px;
+  opacity: 0;
+  -webkit-transform: rotate(45deg) translate(-50%, -50%);
+  transform: rotate(45deg) translate(-50%, -50%);
+  -webkit-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  transform-origin: 0 0;
+}
+
+.snip1500 figcaption:before,
+.snip1500 figcaption:after {
+  height: 2px;
+  width: 400px;
+  position: absolute;
+  content: '';
+  background-color: #ffffff;
+}
+
+.snip1500 figcaption:before {
+  top: 0;
+  left: 10px;
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+}
+
+.snip1500 figcaption:after {
+  bottom: 0;
+  right: 10px;
+  -webkit-transform: translateX(-100%);
+  transform: translateX(-100%);
+}
+
+.snip1500 figcaption div:before,
+.snip1500 figcaption div:after {
+  width: 2px;
+  height: 300px;
+  position: absolute;
+  content: '';
+  background-color: #ffffff;
+}
+
+.snip1500 figcaption div:before {
+  top: 10px;
+  right: 0;
+  -webkit-transform: translateY(100%);
+  transform: translateY(100%);
+}
+
+.snip1500 figcaption div:after {
+  bottom: 10px;
+  left: 0;
+  -webkit-transform: translateY(-100%);
+  transform: translateY(-100%);
+}
+
+.snip1500 h2,
+.snip1500 h4 {
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.snip1500 h2 {
+  font-weight: 400;
+}
+
+.snip1500 h4 {
+  display: block;
+  font-weight: 700;
+  background-color: #ffffff;
+  padding: 5px 10px;
+  color: #000000;
+}
+
+.snip1500 a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.snip1500:hover img,
+.snip1500.hover img {
+  zoom: 1;
+  filter: alpha(opacity=50);
+  -webkit-opacity: 0.5;
+  opacity: 0.5;
+}
+
+.snip1500:hover figcaption,
+.snip1500.hover figcaption {
+  opacity: 1;
+}
+
+.snip1500:hover figcaption:before,
+.snip1500.hover figcaption:before,
+.snip1500:hover figcaption:after,
+.snip1500.hover figcaption:after,
+.snip1500:hover figcaption div:before,
+.snip1500.hover figcaption div:before,
+.snip1500:hover figcaption div:after,
+.snip1500.hover figcaption div:after {
+  -webkit-transform: translate(0, 0);
+  transform: translate(0, 0);
+}
+
+.snip1500:hover figcaption:before,
+.snip1500.hover figcaption:before,
+.snip1500:hover figcaption:after,
+.snip1500.hover figcaption:after {
+  -webkit-transition-delay: 0.15s;
+  transition-delay: 0.15s;
+}
+/* End Effect two */
+
+/* Start Effect Tri */
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,700;);
+.snip1585 {
+  background-color: #000;
+  color: #fff;
+  display: inline-block;
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  margin: 10px;
+  max-width: 315px;
+  min-width: 230px;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+.snip1585 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.45s ease;
+  transition: all 0.45s ease;
+}
+
+.snip1585:before,
+.snip1585:after {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-top: 50px solid rgba(0, 0, 0, 0.5);
+  border-bottom: 50px solid rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  content: '';
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  z-index: 1;
+  opacity: 0;
+}
+
+.snip1585:before {
+  -webkit-transform: scaleY(2);
+  transform: scaleY(2);
+}
+
+.snip1585:after {
+  -webkit-transform: scaleY(2);
+  transform: scaleY(2);
+}
+
+.snip1585 img {
+  vertical-align: top;
+  max-width: 100%;
+  backface-visibility: hidden;
+}
+
+.snip1585 figcaption {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  align-items: center;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 1.1em;
+  opacity: 0;
+  z-index: 2;
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+
+.snip1585 h3 {
+  font-size: 1em;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.snip1585 h3 span {
+  display: block;
+  font-weight: 700;
+}
+
+.snip1585 a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 3;
+}
+
+.snip1585:hover > img,
+.snip1585.hover > img {
+  opacity: 0.7;
+}
+
+.snip1585:hover:before,
+.snip1585.hover:before,
+.snip1585:hover:after,
+.snip1585.hover:after {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  opacity: 1;
+}
+
+.snip1585:hover figcaption,
+.snip1585.hover figcaption {
+  opacity: 1;
+  -webkit-transition-delay: 0.1s;
+  transition-delay: 0.1s;
+}
+/* End Effect Tri */
+
+/* Start Effect Four */
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+.snip1566 {
+  position: relative;
+  display: inline-block;
+  margin: 20px;
+  max-width: 190px;
+  width: 100%;
+  color: #bbb;
+  font-size: 16px;
+  box-shadow: none !important;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+}
+
+.snip1566 *,
+.snip1566:before,
+.snip1566:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+.snip1566:before,
+.snip1566:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border-radius: 50%;
+  content: '';
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: -1;
+  border: 2px solid #bbb;
+  border-color: transparent #bbb;
+}
+
+.snip1566 img {
+  max-width: 100%;
+  backface-visibility: hidden;
+  vertical-align: top;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.snip1566 figcaption {
+  position: absolute;
+  top: 5px;
+  bottom: 5px;
+  left: 5px;
+  right: 5px;
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.9);
+  border-radius: 50%;
+}
+
+.snip1566 i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-size: 4em;
+  z-index: 1;
+}
+
+.snip1566 a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.snip1566:hover figcaption,
+.snip1566.hover figcaption {
+  opacity: 1;
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+}
+
+.snip1566:hover:before,
+.snip1566.hover:before,
+.snip1566:hover:after,
+.snip1566.hover:after {
+  border-width: 10px;
+}
+
+.snip1566:hover:before,
+.snip1566.hover:before {
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.snip1566:hover:after,
+.snip1566.hover:after {
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+/* End Effect Four */
+
+/* Start Tablet */
+@media (max-width: 800px) {
+    .menu-primer ul {
+        background-color: #bfffea;
+    }
+}
+
+/* End Tablet */
+
+/* Start Hp */
+@media (max-width: 480px) {
+    .menu-primer ul {
+        background-color: #f7ced4;
+    }
+    .main-home-one {
+        width: 50%;
+    }
+    .main-home-two {
+       width: 100%;
+    }
+    .main-home-tri {
+        width: 100%;
+    }
+}
+/* End Hp */
